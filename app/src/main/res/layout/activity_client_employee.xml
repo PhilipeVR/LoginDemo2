@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientOrEmployeeActivity">
+
+<TextView
+        android:id="@+id/clientOrEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:text="Welcome to  [Insert Name Here] " />
+
+    <Button
+        android:id="@+id/btnClient"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:text="Client" />
+
+    <Button
+        android:id="@+id/btnEmployee"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:text="Employee" />
+</LinearLayout>
+
